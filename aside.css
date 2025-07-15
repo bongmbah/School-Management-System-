@@ -1,0 +1,94 @@
+@font-face{
+  font-family: myfont;
+  src: url(fonts/Roboto/RobotoBold.ttf);
+  font-weight: 60;
+}
+.aside-action{
+  background-color: transparent;
+  border-top: 1px solid rgba(58, 52, 52,0.1);
+  border-bottom: 1px solid rgba(58, 52, 52,0.1);
+  border-right: 1px solid rgba(58, 52, 52,0.1);
+  box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 1%;
+  overflow: hidden;
+}
+.flex{
+  width: 85%;
+  height: 13%;
+}
+.A-btn{
+  background-color: transparent;
+  width: 100%;
+  height: 110%;
+  border:1px solid rgba(58, 52, 52,0.1);
+  box-shadow: 1px 1px 3px 3px rgba(58, 52, 52,0.1);
+}
+.A-btn-icon{
+  width: 80%;
+}
+.A-btn-title{
+  font-family: myfont;
+  font-size: 9px;
+}
+.A-btn:hover{
+  background-color: rgb(235, 233, 233);
+}
+
+@media  screen and (min-width: 1px) and (max-Width: 680px){
+  .flex{
+    width: 70%;
+    height: 12%;
+  }
+  .A-btn{
+    background-color: transparent;
+    width: 100%;
+    height: 110%;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 1px 1px 3px 3px rgba(58, 52, 52,0.1);
+  }
+  .A-btn-icon{
+    width: 80%;
+  }
+  .A-btn-title{
+    font-family: myfont;
+    font-size: 8px;
+  }
+  .aside-action{
+    padding-left: 3%;
+  }
+}
+
+@media  screen and (min-width: 681px) and (max-Width: 1000px) {
+  .flex{
+    width: 100%;
+    height: 12%;
+  }
+  .A-btn{
+    background-color: transparent;
+    width: 100%;
+    height: 110%;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 1px 1px 3px 3px rgba(58, 52, 52,0.1);
+  }
+  .A-btn-icon{
+    width: 80%;
+  }
+  .A-btn-title{
+    font-family: myfont;
+    font-size: 8px;
+  }
+  .aside-action{
+    padding-left: 3%;
+  }
+  #aside{
+    top: 10%;
+    bottom: 9%;
+    left: 0;
+    right: 90%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+  }
+}

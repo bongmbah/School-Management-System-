@@ -1,0 +1,62 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+#log-content{
+  background-color: transparent;
+  position:absolute;
+  right: 35%;
+  left:30%;
+  top: 25%;
+  border-top: 1px solid rgba(58, 52, 52,0.1);
+  border-left: 1px solid rgba(58, 52, 52,0.1);
+  border-bottom:1px solid rgba(58, 52, 52,0.1) ;
+  box-shadow: -1px -1px 10px 2px rgba(58, 52, 52,0.1);
+}
+.log-content-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+    column-gap: 30px;
+    row-gap: 30px;
+    padding-left: 1%;
+    padding-bottom: 8%;
+    padding-top: 4%;
+}
+.log-content{
+    padding-top: 4%;
+    padding-left:3%;
+    padding-right:4%;
+    padding-bottom: 4%;
+}
+.login-title{
+    width: 82%;
+    font-family: myfont;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.admin-logo{
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1px) and (max-width: 680px){
+    #log-content{
+        right: 5%;
+        left:5%;
+        top: 25%;
+      }
+}
+@media screen and (min-width: 681px) and (max-width: 1000px){
+    #log-content{
+        right: 15%;
+        left:15%;
+        top: 25%;
+      }
+}

@@ -1,0 +1,145 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+
+.content{
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%; 
+    padding-bottom: 5%;
+}
+
+
+.heading{
+    margin-bottom: 20px;
+    border:1px solid rgba(58, 52, 52,0.1);
+
+    padding: 2%;
+   
+}
+.table-title{
+    font-family: myfont;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(188,178,223);
+}
+
+.table-credentials{
+   display: flex;
+   flex-direction: row;
+   padding: 2%;
+   justify-content: space-between;
+}
+.table-credentials div label{
+    font-family: myfont;
+    font-size: 22px;
+}
+
+.table-credentials div select{
+     border: none;
+     border-bottom:1px solid rgba(58, 52, 52,0.1);
+     box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+     outline: none;
+     padding:5px;
+}
+.table-credentials div select option{
+    font-size: 18px;
+}
+
+
+.table-content{
+    width: 100%;
+    overflow-x:hidden;
+}
+table{
+    width: 100%;  
+    border-collapse: collapse;  
+}
+tr{
+    text-align: center;
+}
+.name{
+    width:70%;
+    text-align: left;
+}
+.score{
+    width:15%;
+}
+.remark{
+    width:25%;
+}
+th{
+    padding: 2%;
+    border:1px solid rgba(188,178,223);
+    font-size: myfont;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+td{
+    padding: 2%;
+    border:1px solid rgba(188,178,223);
+    font-size: myfont;
+    font-size: 1.5em;
+}
+.score-input{
+    width: 95%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 1em;
+
+}
+.table-h{
+   background-color: rgb(224,215,255);
+}
+.score-value{
+    padding:0%;
+}
+
+@media  screen and (min-width: 1px) and (max-Width: 680px){
+    .name{
+        max-width:400px;
+        text-align: left;
+    }
+
+}
+@media  screen and (min-width: 680px) and (max-Width: 680px){
+   
+}
+
+@media  screen and (min-width: 681px) and (max-Width: 1000px) {
+  
+  }
+
+  @media  screen and (min-width: 1px) and (max-Width: 900px){
+    .table-credentials{
+        flex-direction: column;
+     }
+     .table-credentials div select{
+       margin-bottom: 10px;
+   }
+}
+
+body{
+    padding-top: 15%;
+}
+.print{
+    font-family: myfont;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(224,215,255);
+    color: white;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+    margin-top: 5px;
+}
+.print:hover{
+    background-color: rgba(224,215,255,.8);
+}

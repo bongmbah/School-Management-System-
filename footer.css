@@ -1,0 +1,55 @@
+
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(255, 255, 255,0.9);
+  font-family: myfont;
+  font-size: 20px;
+  padding-top: 0.8em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-color{
+  color: rgb(109, 204, 109);
+}
+.sevic-link a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255,0.9);
+}
+.location{
+  margin-top: -12px;
+  font-size:0.8em ;
+}
+.campus{
+    font-size: 12px;
+}
+.location-color{
+   color:rgb(202, 37, 37);
+}
+
+.campus-color{
+    color: rgb(109, 204, 109);
+}
+.location .div{
+    margin-bottom: 6px;
+}
+.contact,.sevic-link{
+    font-size:0.8em ;
+}
+@media  screen and (min-width: 1px) and (max-Width: 680px){
+  .footer{
+    flex-direction: column;
+    align-content: space-between;
+    
+  }
+  .sevic-link{
+     margin-bottom: 14px;
+  }
+
+}

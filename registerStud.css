@@ -1,0 +1,143 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+  }
+  .Fname,.Lname,.email,.phone,.lect-code{
+      border: none;
+      outline: none;
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgba(58, 52, 52,0.1);
+      box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+      padding: 5px;
+      font-size: 20px;
+      color:rgb(117,117,117);
+      width: 80%;
+      text-align: center;
+    }
+    .message{
+      font-family: myfont;
+      font-size: 15px;
+      color:rgb(173, 65, 65);
+      margin-bottom: 30px;
+      text-align: center;
+  }
+  .submit{
+    font-family: myfont;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(141, 122, 209);
+    color: white;
+    border-radius: 16px;
+    margin-left:33%;
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+}
+.submit:hover{
+  background-color: rgb(60, 44, 119);
+}
+  #login-form{
+    border: 1px solid black;
+    position: absolute;
+    left: 24%;
+    right: 34%;
+    top: 25%;
+    background-color: white;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+    padding-left: 8%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  
+  .body{
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  }
+  
+  .admin-title{
+    width: 82%;
+    font-family: myfont;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .select{
+      max-width: 82%;
+      margin-bottom: 20px;
+  }
+  
+  .speciality,.level-h,.depart,.file{
+    font-family: myfont;
+    font-size: 20px;
+  }
+  .speciality-value,.depart-value,.level{
+    font-size: 20px;
+  }
+  
+  .speciality-value{
+      padding: 5px;
+      width: 100%;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(58, 52, 52,0.1);
+      box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+      
+  }
+  .depart-value{
+        padding: 5px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgba(58, 52, 52,0.1);
+        box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+  }
+  .radio-value{
+    margin-bottom: 20px;
+  }
+  .phd,.master{
+    margin-right: 10%;
+  }
+  .filename{
+    border: none;
+    background:transparent;
+    font-size: 17px;
+  }
+  body{
+    padding-bottom: 800px;
+  }
+  .speciality-value option{
+    font-size: 15px;
+  }
+  
+  @media screen and (min-width: 1px) and (max-width: 680px){
+    #login-form{
+        right: 5%;
+        left:20%;
+      }
+  }
+  @media screen and (min-width: 681px) and (max-width: 1000px){
+    #login-form{
+        right: 15%;
+        left:15%;
+      }
+  }
+  input[type="file"]::-webkit-file-upload-button{
+      font-family: myfont;
+      border: none;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 4%;
+      padding-right: 4%;
+      background-color: rgba(181, 226, 113,.9);
+      color: white;
+      border-radius: 16px;
+      box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+  }

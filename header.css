@@ -1,0 +1,87 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right:3% ;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    background-color: white;
+}
+.logo{
+    background-color:transparent;
+    width: 9%;
+    margin-right: 1%;
+
+}
+.title{
+    background-color:transparent;
+    flex: 1;
+    text-align: center;
+    color: rgb(51, 51, 99);
+    padding-top: 10px;
+}
+.title .h1{
+    font-family: myfont;
+    font-size: 1.8em;
+
+    
+}
+
+.title .h3{
+    font-family: myfont;
+    font-size: 1.7em;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.welcome{
+   margin-top: 1%;
+}
+@media  screen and (min-width: 1px) and (max-Width: 680px) {
+    .title .h3{
+        font-size: .8em;
+    }
+    .title .h1{
+        font-size: .8em;
+        
+    }
+    .content-grid{
+        grid-template-columns: 1fr;
+    }
+    .logo img{
+        width: 150%;
+        height: 90%;
+    }
+    #header{
+
+        bottom: 84%;
+    }
+
+}
+
+@media  screen and (min-width: 681px) and (max-Width: 1000px) {
+    .title .h3{
+        font-size: 1em;
+    }
+    .title .h1{
+        font-size: 1em;
+        
+    }
+    .content-grid{
+        grid-template-columns: 1fr;
+    }
+    .logo img{
+        width: 150%;
+        height: 90%;
+    }
+}

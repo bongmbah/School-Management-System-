@@ -1,0 +1,114 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+
+.content{
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%; 
+    padding-bottom: 5%;
+}
+.table-content{
+    width: 100%;
+    overflow-x:hidden;
+}
+table{
+    width: 100%;  
+    border-collapse: collapse;  
+}
+tr{
+    text-align: center;
+}
+.score-t{
+    width: 25%;
+}
+.date{
+    width:15%;
+}
+.course{
+    width:8%;
+    text-align: left;
+}
+.credit{
+    width:8%;
+}
+.grade{
+    width:15%;
+}
+.credit-e{
+    width:10%;
+}
+
+.grade-p{
+    width: 8%;
+}
+
+th{
+    padding: 1.5%;
+    border:1px solid rgba(188,178,223);
+    font-size: myfont;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+td{
+    border:1px solid rgba(188,178,223);
+    font-size: myfont;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.table-h{
+    background-color: rgb(224,215,255);
+ }
+ .pre-title{
+    font-family: myfont;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:10px ;
+ }
+ .stud-photo{
+    width: 45%;
+ }
+.photo-btn{
+   width: 100%;
+   border: none;
+   background-color: transparent;
+}
+.photo-btn:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.view-btn{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+ }
+ .view:hover{
+    background-color: rgb(240, 240, 240);
+ }
+ .accept{
+    width:80%;
+    font-size: 1em;
+    border: none;
+    padding: 4%;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+ }
+
+.accept:hover{
+    background-color: rgb(186, 39, 39);
+    cursor: pointer;
+}
+#content{
+    position: relative;
+}
+body{
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 10%;
+}

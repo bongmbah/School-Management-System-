@@ -1,0 +1,241 @@
+@font-face{
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+  }
+  /*.Fname,.Lname,.email,.nation,.pass{
+      border: none;
+      outline: none;
+      margin-bottom: 30px;
+      border-bottom: 1px solid rgba(58, 52, 52,0.1);
+      box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+      padding: 5px;
+      font-size: 20px;
+      color:rgb(117,117,117);
+      width: 80%;
+      text-align: center;
+    }
+  
+ 
+  #login-form{
+    border: 1px solid black;
+    position: absolute;
+    left: 60%;
+    right: 3%;
+    top: 25%;
+    background-color: white;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+    padding-left: 8%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  
+
+  
+  .admin-title{
+    width: 82%;
+    font-family: myfont;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .accept{
+    font-size: 1.2em;
+    border: none;
+    padding: 2%;
+    background-color: green;
+    color: white;
+ }
+ .reject{
+    font-size: 1.2em;
+    border: none;
+    padding: 2%;
+    background-color: red;
+    color: white;
+ }
+
+.accept:hover{
+    background-color: rgb(17, 89, 17);
+}
+.reject:hover{
+    background-color: rgb(186, 39, 39);
+}
+.validate{
+    font-size: 1.2em;
+    border: none;
+    padding: 2%;
+    background-color: green;
+    color: white;
+}
+.validate:hover{
+    background-color: rgb(17, 89, 17);
+}
+.btns{
+  font-family: myfont;
+    width: 80%;
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+}
+.form2 div{
+    width: 80%;
+    text-align: center;
+}
+
+.passm{
+    margin-top: 40px;
+}
+.divV{
+    text-align: center;
+    width: 80%;
+}
+  
+  @media screen and (min-width: 1px) and (max-width: 680px){
+    #login-form{
+        right: 5%;
+        left:20%;
+      }
+  }
+  @media screen and (min-width: 681px) and (max-width: 1000px){
+    #login-form{
+        right: 15%;
+        left:15%;
+      }
+  }
+
+  .message{
+     font-family: myfont;
+     color: red;
+     text-align: center;
+     width: 80%;
+     margin-top: 20px;
+  }
+ .matricule{
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  background-color: transparent;
+  color:rgb(117,117,117);
+  text-align: left;
+  font-family: myfont;
+  font-size: 1.5em;
+ }
+ .mat-title{
+  font-family: myfont;
+  font-size: 1.5em;
+ }
+*/
+body{
+  padding-top: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+ #content{
+   position: relative;
+   background-color: transparent;
+   border-top: 1px solid rgba(58, 52, 52,0.1);
+   border-left: 1px solid rgba(58, 52, 52,0.1);
+   border-bottom:1px solid rgba(58, 52, 52,0.1) ;
+   box-shadow: -1px -1px 10px 2px rgba(58, 52, 52,0.1);
+   padding-bottom: 100px;
+   display: flex;
+   padding: 2%;
+}
+
+
+#header{
+  position: fixed;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 80%;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(58, 52, 52,0.1);
+  box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+}
+
+#footer{
+background-color: rgb(53, 44, 44);
+position: fixed;
+left:0;
+right: 0;
+bottom:0;
+z-index: 1000;
+}
+@media  screen and (min-width: 1px) and (max-Width: 680px) {
+
+}
+@media  screen and (min-width: 681px) and (max-Width: 1000px) {
+
+
+}
+#validate-section{
+    border: 1px solid black;
+    background-color: white;
+    border:1px solid rgba(58, 52, 52,0.1);
+    box-shadow: 3px 3px 5px 5px rgba(58, 52, 52,0.1);
+    width: 30%;
+    padding: 2%;
+}
+#validate-section div{
+text-align: center;
+}
+.name,.username{
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(58, 52, 52,0.1);
+  box-shadow: 1px 1px 1px 1px rgba(58, 52, 52,0.1);
+  padding: 5px;
+  font-size: 20px;
+  color:rgb(117,117,117);
+  width: 80%;
+  text-align: center;
+}
+.accept-reject{
+  display: flex;
+  justify-content: space-between;
+  padding-left:20%;
+  padding-right: 20%;
+  margin-bottom: 20px;
+}
+.accept{
+  font-size: 1.2em;
+  border: none;
+  padding: 10%;
+  background-color: green;
+  color: white;
+}
+.reject{
+  font-size: 1.2em;
+  border: none;
+  padding: 10%;
+  background-color: red;
+  color: white;
+}
+.register{
+  font-size: 1.2em;
+  border: none;
+  padding: 2%;
+  background-color: green;
+  color: white;
+}
+.accept:hover,.register:hover{
+  background-color: rgb(17, 89, 17);
+}
+.reject:hover{
+  background-color: rgb(186, 39, 39);
+}
+
+.message{
+  font-family: myfont;
+  color: red;
+  text-align: center;
+  width: 80%;
+  margin-top: 20px;
+}
+

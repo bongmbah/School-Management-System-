@@ -1,0 +1,138 @@
+@font-face {
+    font-family: myfont;
+    src: url(fonts/Roboto/RobotoBold.ttf);
+    font-weight: 60;
+}
+
+body {
+    padding-top: 600px;
+    padding-bottom: 10%;
+    background-image: url(background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 {}
+
+.period {
+    width: 20%;
+    background-color: rgb(19, 9, 28);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+
+.period div {
+    font-family: myfont;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.period div span {
+    font-size: .6em;
+    display: block;
+}
+
+#footer {
+    background-color: rgb(53, 44, 44);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 80%;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(58, 52, 52, 0.1);
+    box-shadow: 1px 1px 1px 1px rgba(58, 52, 52, 0.1);
+}
+
+.person {
+    background-color: transparent;
+    position: absolute;
+    left: 48%;
+    right: 35%;
+    top: 15%;
+    bottom: 20%;
+    z-index: 1;
+}
+
+.person img {
+    width: 100%;
+}
+
+fieldset {
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    top: 40%;
+    bottom: 1%;
+    z-index: 10;
+    padding: 0.5%;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.8);
+}
+
+legend {
+    font-family: myfont;
+    font-size: 2em;
+    border: 2px solid black;
+    color: rgb(7, 102, 7);
+    background-color: white;
+    border-radius: 10px;
+}
+
+#section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15%;
+}
+
+.grid-pro {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5%;
+}
+
+.field-title {
+    background-color: rgb(7, 102, 7);
+    color: white;
+    padding: 3%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-family: myfont;
+    font-size: 1.4em;
+}
+
+.fields {
+    font-family: myfont;
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.addedfooter {
+    position: fixed;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+    top: 80%;
+    background-color: rgb(53, 44, 44);
+    z-index: 1;
+}
